@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/loginStyles.css">
+    <title>play_with_me</title>
+</head>
+<body>
+    <div class="form-container">
+        <span class="title"><h1>Sketch-a-Synth</h1></span>
+        <div class="form-main">
+            <form action="/sketch.html">
+                <label class="ele" for="username">Username</label>
+                <input class="ele" id="name" type="text" name="username" placeholder="Username" required>
+                <label class="ele" for="room">Room</label>
+                <select class="ele" name="room" id="room">
+                    <option value="paris">Paris</option>
+                    <option value="chicago">Chicago</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="manaus">Manaus</option>
+                </select>
+                <button class="ele" type="submit">Join</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/sketchStyles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>play_with_me</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="top-display"id="top-display">
+            <h1>Synth-a-Sketch</h1>
+            <div id="username" class="username"></div>  
+        </div>    
+        
+        <div class="mainSketch" id="mainSketch"></div>
+
+        <div class="bottomInfo">
+            <div id="roomInfo" class="roomInfo"></div>    
+            <div class="options" id="options"></div>
+            <div class="users" id="users"></div>
+        </div>
+        
+    
+        <div id="listOfUsers" class="listOfUsers"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/sketch.js"></script>
+</body>
+</html>

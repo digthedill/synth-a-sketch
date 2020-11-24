@@ -1,0 +1,78 @@
+body {
+  background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
+  color: #f4f4f4;
+  font-family: monospace;
+}
+.top-display {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 1.2rem;
+}
+@media only screen and (max-width: 720px) {
+  .top-display {
+    display: block;
+  }
+  .bottomInfo {
+    display: flex;
+  }
+  .options {
+    display: block;
+    flex-direction: column;
+    padding: 0.3rem;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  margin-right: 3rem;
+}
+.username-display {
+  flex: 1;
+  color: #fffc37;
+  text-align: right;
+  margin: 0;
+  font-weight: bolder;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.mainSketch {
+  border: 1.4px solid #f4f4f4;
+  max-width: 800px;
+  margin: 0;
+}
+
+.roomInfo div {
+  font-size: 30px;
+}
+
+.listOfUsers div {
+  display: block;
+}
+.bottomInfo {
+  display: block;
+  margin: 0 auto;
+}
+.username {
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 0.3rem;
+}
+
+.options {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.9rem;
+  margin-top: 0.4rem;
+  margin-right: 1.5rem;
+  width: 100%;
+  font-size: 12px;
+}
+
+.options-element {
+  width: 100%;
+  margin-right: 1rem;
+}
